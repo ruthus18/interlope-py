@@ -1,0 +1,41 @@
+# [0.2.0] VXC Global Illumination
+
+    * Prepare codebase for GI implementation (GUI controls, clean modules and interfaces)
+
+    * Scene voxelization (gfx_vx module) + renderer visualization
+    * 3D textures (check GL extension, loading to GPU, mipmapping, GLSL manipulation)
+    * Local Illumination model, set up gfxvx shaders interface, lighting configuration
+    * Cone tracing algorithm...
+    * Debugging and monitoring tools (RAM, VRAM usage, FPS graph)
+    * GI configuration in GUI
+
+
+# [0.1.0] 3D Viewer
+
+    Ability to render single rotating model 
+
+    * basic lighting
+    * skybox
+
+    Result: ability to walk through demo scene
+
+
+***
+
+Done:
+
+[0.1.0] 3D Viewer
+    * VAO & VBO
+    * mesh manipulation (position, rotation, scale)
+    * projection matrix
+    * .obj mesh loading
+    * camera view & manipulation
+    * textures loading
+
+***
+
+TODO:
+* Fix issue with .png loading into OpenGL
+* Font rendering
+* Camera settings in GUI
+* Physical Monitor ID + window borderless configuration

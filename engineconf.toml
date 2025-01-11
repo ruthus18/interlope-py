@@ -1,0 +1,33 @@
+# -- Preset 1
+# SCREEN_WIDTH: int = 1366
+# SCREEN_HEIGHT: int = 768
+# SCREEN_FULLSC: bool = False
+# SCREEN_BORDER: bool = False
+
+# -- Preset 2
+# SCREEN_WIDTH: int = 1680
+# SCREEN_HEIGHT: int = 1050
+# SCREEN_FULLSC: bool = False
+# SCREEN_BORDER: bool = False
+
+# -- Preset 3
+# SCREEN_WIDTH: int = 1680
+# SCREEN_HEIGHT: int = 1050
+# SCREEN_FULLSC: bool = True
+# SCREEN_BORDER: bool = False
+
+[window]
+width = 1366
+height = 768
+fullsc = false
+border = false
+title = "Interlope Engine"
+color = "DARK2"
+pos = [20, 0]
+
+[paths]
+assets_dir = "assets/"
+shaders_dir = "shaders/"
+
+[world]
+root_scene = "room"

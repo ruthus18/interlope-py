@@ -1,0 +1,198 @@
+# Floor
+# ==============================
+
+[[object]]
+ptr = "floor_living01"
+position = [0.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "floor_living01"
+position = [0.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "floor_living01"
+position = [3.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "floor_living01"
+position = [3.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "floor_living01"
+position = [6.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "floor_living01"
+position = [6.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+# Walls
+# ==============================
+
+# A
+[[object]]
+ptr = "wall_living01"
+position = [-3.0, 0.0, -3.0]
+rotation = [0, 270, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01"
+position = [0.0, 0.0, -3.0]
+rotation = [0, 270, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01_dr"
+position = [3.0, 0.0, -3.0]
+rotation = [0, 270, 0]
+scale = [1, 1, 1]
+
+# B
+[[object]]
+ptr = "wall_living01"
+position = [0.0, 0.0, 3.0]
+rotation = [0, 90, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01_wn"
+position = [3.0, 0.0, 3.0]
+rotation = [0, 90, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01"
+position = [6.0, 0.0, 3.0]
+rotation = [0, 90, 0]
+scale = [1, 1, 1]
+
+# C
+[[object]]
+ptr = "wall_living01"
+position = [6.0, 0.0, -3.0]
+rotation = [0, 180, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01"
+position = [6.0, 0.0, 0.0]
+rotation = [0, 180, 0]
+scale = [1, 1, 1]
+
+# D
+[[object]]
+ptr = "wall_living01"
+position = [-3.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "wall_living01"
+position = [-3.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+# Ceiling
+# ==============================
+
+[[object]]
+ptr = "ceiling_white"
+position = [0.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_white"
+position = [3.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_white"
+position = [6.0, 0.0, 0.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_white"
+position = [0.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_white"
+position = [3.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_white"
+position = [6.0, 0.0, 3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_wood"
+position = [0.0, 0.0, -3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_wood"
+position = [3.0, 0.0, -3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "ceiling_wood"
+position = [6.0, 0.0, -3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+# Doors
+# ==============================
+
+[[object]]
+ptr = "dframe_living"
+position = [4.5, 0.0, -2.95]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "door_living"
+position = [4.5, 0.0, -3.0]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "window_living"
+position = [1.5, 0.0, 3.1]
+rotation = [0, 270, 0]
+scale = [1, 1, 1]
+
+# Furniture
+# ==============================
+
+[[object]]
+ptr = "chair01"
+position = [0.0, 0.0, 0.5]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]
+
+[[object]]
+ptr = "chair01"
+position = [0.0, 0.0, -0.5]
+rotation = [0, 0, 0]
+scale = [1, 1, 1]

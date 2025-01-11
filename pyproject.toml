@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "interlope-py"
+version = "0.1.0"
+description = "Python/OpenGL Application Demo"
+authors = ["Danil Tryapchev <ruthus18@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorlog = "^6.8.2"
+pyopengl = "^3.1.7"
+pyglfw = "^0.2.2"
+pygltflib = "^1.16.2"
+pyglm = "^2.7.1"
+numpy = "^2.1.0"
+pillow = "^10.4.0"
+psutil = "^6.0.0"
+imgui = {extras = ["glfw"], version = "^2.0.0"}
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+ipdb = "^0.13.13"
+flake8 = "^7.1.0"
+flake8-pyproject = "^1.2.3"
+mypy = "^1.10.1"
+isort = "^5.13.2"
+poethepoet = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.isort]
+multi_line_output = 3
+line_length = 79
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+balanced_wrapping = true
+force_single_line = true
+
+[tool.flake8]
+max-complexity = 8
+max-line-length = 79
+ignore = [
+    "E701",  # multiple statements on one line
+    "E704",  # multiple statements on one line
+    "E203",  # whitespace before ':'
+    "E731",  # do not assign a lambda expression, use a def
+    "E402",  # module level import not at top of file
+    "W503",  # line break after binary operator
+]
+
+
+[tool.poe.tasks]
+_isort = "isort --overwrite-in-place ."
+_flake8 = "flake8p ."
+
+q = ["_isort"]
+r = "python -m interlope.app"
+# q = ["_isort", "_flake8"]
